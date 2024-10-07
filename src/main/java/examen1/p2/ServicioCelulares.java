@@ -18,4 +18,10 @@ public class ServicioCelulares {
             return "El celular '" + modelo + "' de " + marca + " no está disponible";
         }
     }
+    boolean estaDisponible(String modelo, String marca) {
+        return !modelo.equals("iPhone 13");
+    }
+    boolean registrarPrestamo(String modelo, String marca, String usuario) {
+        return true;
+    }
 }

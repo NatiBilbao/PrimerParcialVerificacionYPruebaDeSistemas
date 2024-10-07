@@ -14,7 +14,7 @@ public class DateUtilsTest {
             "2024-02-29, THURSDAY",
             "2024-03-15, FRIDAY",
             "2024-08-06, THURSDAY",
-            "2024-12-25, WEDNESDAY"
+            "2024-12-25, WEDNESDAY",
     })
     public void testGetDayOfWeek(String date, String expectedDay) {
         assertEquals(expectedDay, dateUtils.getDayOfWeek(date));
